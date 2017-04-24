@@ -65,7 +65,7 @@ span {
 	border: 1px solid seashell;
 }
 
-.mission {
+#mission {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -85,7 +85,7 @@ span {
 	line-height: 1px;
 }
 
-.month {
+#month {
 	padding: 80px 0px;
 	display: flex;
 	justify-content: center;
@@ -95,8 +95,8 @@ span {
 	margin: auto;
 }
 
-.month h2,
-.month h4 {
+#month h2,
+#month h4 {
 	width: 1000px;
 	background-color: black;
 	text-align: center;
@@ -127,7 +127,7 @@ span {
 	margin-top: 10px;
 }
 
-.locations {
+#locations {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -139,7 +139,7 @@ span {
 	margin: auto;
 }
 
-.locations h2 {
+#locations h2 {
 	width: 1000px;
 	text-align: center;
 	line-height: 0px;
