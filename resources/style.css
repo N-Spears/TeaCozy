@@ -1,0 +1,180 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 0;
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	background-color: black;
+	
+}
+
+/* header */
+.header {
+	display: flex;
+	flex-wrap: wrap;
+	overflow: visible;
+	width: 100%;
+	justify-content: center;
+	position: fixed;
+	z-index: 5;
+	height: 69px;
+	background-color: black;
+  border-bottom: 1px solid seashell;
+	padding-left:10px;
+	padding-right: 10px;
+	align-items: center;
+}
+
+.logo {
+	display: flex;
+	width: 24%;
+	min-width: 158px;
+	justify-content: flex-start;
+	flex-shrink: 1;
+}
+
+.logo img {
+	opacity: 0.9;
+}
+
+.navigation {
+	display: flex;
+	justify-content: flex-end;
+	width: 74%;
+	min-width: 30%;
+	flex-wrap: wrap;
+	padding-left: 10px;
+}
+
+span {
+	font-size: 22px;
+	color: seashell;
+	opacity: 0.9;
+	padding: 15px;
+	text-decoration: underline;
+}
+
+/* body */
+.container {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	top: 69px;
+	border: 1px solid seashell;
+}
+
+.mission {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  background-image: url(img/img-mission-background.jpg);
+	width: 1200px;
+	height: 700px;
+	margin: auto;
+}
+
+.byline {
+	display: flex;
+	flex-direction: column;
+	align-items: space-between;
+	width: 1200px;
+	background-color: black;
+	text-align: center;
+	line-height: 1px;
+}
+
+.month {
+	padding: 80px 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 1000px;
+	margin: auto;
+}
+
+.month h2,
+.month h4 {
+	width: 1000px;
+	background-color: black;
+	text-align: center;
+	line-height: 0px;
+}
+
+.rowwrap {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 1000px;
+	margin: auto;
+}
+
+.colwrap {
+	display: flex;
+	flex-direction: column;
+	width: 333px;
+	align-items: center;
+}
+
+.colwrap img {
+	width: 300px;
+}
+
+.colwrap p {
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.locations {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	align-content: center;
+	background-image: url(img/img-locations-background.jpg);
+	width: 1200px;
+	height: 500px;
+	margin: auto;
+}
+
+.locations h2 {
+	width: 1000px;
+	text-align: center;
+	line-height: 0px;
+	padding-bottom: 15px;
+}
+
+.address {
+	display: flex;
+	justify-content: center;
+	flex-flow: wrap column;
+	align-content: space-around;
+	width: 300px;
+	background-color: black;
+	opacity: 1.0;
+	text-align: center;
+	margin: 0px 20px 0px 20px;
+}
+
+.address h3 {
+	line-height: 0px;
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+	flex-flow: wrap column;
+	margin: auto;
+	align-content: space-around;
+	height: 200px;
+	text-align: center;
+	line-height: 0px;
+}
+
+.copyright {
+	margin-left: 20px;
+}
+
+
